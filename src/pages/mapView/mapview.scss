@@ -1,0 +1,24 @@
+.Ev_charger_modal_mapview{
+    max-width: 296px;
+    background-color: #F9F9F9;
+    position: absolute;
+    overflow-y: scroll;
+   
+}
+
+.over_heat_alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 107px;
+    min-width: 307px;
+    background-color: #353535;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #000000;
+
+    a{
+        color: #fff;
+    }
+}

@@ -1,0 +1,109 @@
+.login-page {
+  background:
+    radial-gradient(circle at 18% 14%, rgba(46, 125, 91, 0.18), transparent 26rem),
+    linear-gradient(135deg, #f8fbfd 0%, #eef3f8 100%);
+  padding: 24px;
+}
+
+.login-shell {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid #dbe4ee;
+  border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(320px, 420px);
+  max-width: 980px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.login-brand {
+  background:
+    linear-gradient(160deg, rgba(15, 23, 42, 0.92), rgba(20, 83, 45, 0.88)),
+    url("../../assets/Icons/map.png");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 560px;
+  padding: 48px;
+}
+
+.heading_logo {
+  font-weight: 800 !important;
+  padding-top: 2rem;
+}
+
+.login-copy {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: 16px !important;
+  max-width: 420px;
+}
+
+.login-metrics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 42px;
+}
+
+.login-metrics span {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.78);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.78rem;
+  padding: 14px;
+}
+
+.login-metrics strong {
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+.login-form {
+  align-self: center;
+  padding: 44px;
+}
+
+.login-form__title {
+  font-weight: 800 !important;
+  margin-bottom: 28px !important;
+}
+
+.lable {
+  color: #0f172a !important;
+  font-size: 14px;
+  font-weight: 800 !important;
+  margin-top: 14px;
+}
+
+@media (max-width: 780px) {
+  .login-page {
+    height: auto !important;
+    min-height: 100vh;
+  }
+
+  .login-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .login-brand {
+    min-height: auto;
+    padding: 32px;
+  }
+
+  .login-form {
+    padding: 32px;
+  }
+
+  .login-metrics {
+    grid-template-columns: 1fr;
+  }
+}
